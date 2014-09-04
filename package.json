@@ -1,0 +1,26 @@
+{
+  "name": "hubot-di",
+  "description": "Get currently playing tracks from DI.fm",
+  "version": "0.0.1",
+  "author": "Paul Lewis <paullewis91@gmail.com>",
+  "contributors": [{
+    "name": "Hector Leiva",
+    "email": "hector@hectorleiva.com"
+  }],
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paul91/hubot-di.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paul91/hubot-di/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "main": "index.coffee"
+}
