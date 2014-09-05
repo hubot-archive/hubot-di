@@ -1,0 +1,16 @@
+.\" Manpage for hubot-di.
+.\" Contact Paul Lewis or Hector Leiva to correct errors or typos.
+.TH man 8 "05 September 2014" "1.0" "nuseradd man page"
+.SH NAME
+di me \- A Hubot script that will display currently playing tracks for channels on Digitally Imported radio.
+.SH SYNOPSIS
+hubot di me [CHANNEL_NAME]
+.SH DESCRIPTION
+di me will return the currently playing track of the queried channel by checking against DI radio APIs
+.SH OPTIONS
+di me must be supplied with a channel_name to look up.
+.SH BUGS
+No known bugs.
+.SH AUTHORS
+Paul Lewis (paullewis91@gmail.com)
+Hector Leiva (hector@hectorleiva.com)
