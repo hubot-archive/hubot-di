@@ -3,10 +3,12 @@
   "description": "Get currently playing tracks from DI.fm",
   "version": "0.0.1",
   "author": "Paul Lewis <paullewis91@gmail.com>",
-  "contributors": [{
-    "name": "Hector Leiva",
-    "email": "hector@hectorleiva.com"
-  }],
+  "contributors": [
+    {
+      "name": "Hector Leiva",
+      "email": "hector@hectorleiva.com"
+    }
+  ],
   "license": "MIT",
   "keywords": [
     "hubot",
@@ -22,5 +24,12 @@
   "dependencies": {
     "coffee-script": "~1.6"
   },
-  "main": "index.coffee"
+  "main": "index.coffee",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "chai-http": "^0.5.0",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  }
 }
