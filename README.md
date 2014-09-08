@@ -4,7 +4,7 @@
 
 A Hubot script that will display currently playing tracks for channels on [Digitally Imported](http://di.fm) radio.
 
-See [`src/di.coffee`](src/auth.coffee) for full documentation.
+See [`src/di.coffee`](src/di.coffee) for full documentation.
 
 ## Installation
 
