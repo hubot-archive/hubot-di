@@ -23,7 +23,7 @@ Add **hubot-di** to your `external-scripts.json`:
 ["hubot-di"]
 ```
 
-Run `npm install hubot-di`
+Run `npm install hubot-di`, or run `npm install hubot-di --save-dev` to include `hubot-di` into your package.json file.
 
 ## Sample Interaction
 
