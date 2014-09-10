@@ -27,7 +27,9 @@ diMe = (msg) ->
         di_channels.forEach (element, index) ->
           keyName = String(msg.match[1]).replace /\s/g, ''
           re = new RegExp("^#{keyName}$", 'i')
-          if element["key"].match(re)
+          di_channel_name_formatted = element["name"].toLowerCase()
+          di_channel_name_formatted = di_channel_name_formatted.replace(/\s+/g, '')
+          if element["key"].match(re) or di_channel_name_formatted.match(re)
             found = true
             di_fm_station_info =
               channel_id: element["id"]
