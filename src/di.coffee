@@ -25,9 +25,9 @@ diMe = (msg) ->
         found = false
         di_channels = JSON.parse(body)
         di_channels.forEach (element, index) ->
-          keyName = String(msg.match[1]).replace /\s/g, ''
-          re = new RegExp("^#{keyName}$", 'i')
-          if element["key"].match(re)
+          channel = String(msg.match[1]).replace /\s/g, ''
+          re = new RegExp("^#{channel}$", 'i')
+          if element["key"].match(re) or element["name"].replace(/\s+/g, '').match(re)
             found = true
             di_fm_station_info =
               channel_id: element["id"]
