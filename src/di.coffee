@@ -15,7 +15,7 @@
 #   hectorleiva
 
 module.exports = (robot) ->
-  robot.respond /di\s*(?:me)?\s*(.+)?/i, (msg) ->
+  robot.respond /di\s+?me?\s+?(.+)/i, (msg) ->
     diMe msg
 
 diMe = (msg) ->

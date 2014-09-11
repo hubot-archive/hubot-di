@@ -12,4 +12,4 @@ describe 'di', ->
     require('../src/di')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/di\s*(?:me)?\s*(.+)?/i)
+    expect(@robot.respond).to.have.been.calledWith(/di\s+?me?\s+?(.+)/i)
