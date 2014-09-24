@@ -1,6 +1,6 @@
 # Hubot DI.fm
 
-[![Build Status](https://travis-ci.org/paul91/hubot-di.svg?branch=master)](https://travis-ci.org/paul91/hubot-di)
+[![Build Status](https://travis-ci.org/hubot-scripts/hubot-di.svg?branch=master)](https://travis-ci.org/hubot-scripts/hubot-di)
 
 A Hubot script that will display currently playing tracks for channels on [Digitally Imported](http://di.fm) radio.
 
