@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/paul91/hubot-di.git"
+    "url": "git://github.com/hubot-scripts/hubot-di.git"
   },
   "bugs": {
-    "url": "https://github.com/paul91/hubot-di/issues"
+    "url": "https://github.com/hubot-scripts/hubot-di/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6"
